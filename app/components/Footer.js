@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Footer = () => {
+function Footer() {
     return (
-        <div>Footer</div>
+        <div className='w-full text-center bg-whitesmoke py-2 md:hidden'>
+            <p>© 2023 ORIGIN.Doc</p>
+        </div>
     )
 }
 
